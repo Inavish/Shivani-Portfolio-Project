@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.one {
+  display: flex;
+  position: relative;
+}
+
+.one .two {
+  width: 20%;
+  height: 100%;
+  background: #212529 !important;
+  padding: 30px 0px;
+  position: fixed;
+}
+
+.one .two h1 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.one .two ul li {
+  text-align: center;
+  padding: 15px;
+}
+
+.one .two ul li a {
+  color: #ffffff;
+  display: block;
+}
+
+.one .two ul li a {
+  width: 25px;
+  align-items: center;
+}
+
+.one .content {
+  width: 100%;
+  margin-left: 200px;
+}
+
+.one .content .topbar {
+  text-align: center;
+  padding: 20px;
+  background: #212529 !important;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.one .content .contentbar {
+  margin: auto;
+}
+
+.one .content .contentbar h1 {
+  color: Black;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+.img1 {
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+#logo {
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
+}
+#link1 {
+  float: inline-start;
+  color: #fff;
+  cursor: pointer;
+}
+#p1 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
