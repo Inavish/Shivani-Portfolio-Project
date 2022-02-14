@@ -108,3 +108,26 @@
   left: 50%;
   transform: translate(-70%, -50%);
 }
+.mydiv {
+  background-color: white;
+  width: 30%;
+  height: 1550px;
+  border-style: double;
+  padding: 10px;
+  margin: auto;
+}
+.mytext1 {
+  font-size: 30px;
+}
+.mytext2 {
+  font-size: 15px;
+}
+.mytable {
+  border-collapse: collapse;
+  width: 100%;
+  height: 250px;
+}
+.mytd {
+  border: 1px solid black;
+  text-align: center;
+}
